@@ -4,6 +4,9 @@
   "type": "module",
   "sideEffects": false,
   "author": "darkroom.engineering",
+  "contributors": [
+    "Daniel Nahuel Acuña <danielnahuelacuna98@gmail.com> (https://github.com/DaniAcu)"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -57,6 +60,9 @@
     },
     "vue": {
       "optional": true
+    },
+    "svelte": {
+      "optional": true
     }
   },
   "unpkg": "./dist/lenis.mjs",
@@ -80,6 +86,10 @@
     "./vue": {
       "types": "./dist/lenis-vue.d.ts",
       "default": "./dist/lenis-vue.mjs"
+    },
+    "./svelte": {
+      "types": "./dist/lenis-svelte.d.ts",
+      "default": "./dist/lenis-svelte.mjs"
     }
   }
 }
